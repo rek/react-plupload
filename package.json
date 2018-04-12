@@ -7,7 +7,7 @@
   "files": [
     "lib/Plupload.js",
     "lib/BrowseButton.js",
-    "lib/UploadButton.js",
+    "lib/UploadButton.js"
   ],
 
   "scripts": {
