@@ -1,8 +1,15 @@
 {
   "name": "react-plupload",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "React plugin for plupload",
   "main": "lib/Plupload.js",
+
+  "files": [
+    "lib/Plupload.js",
+    "lib/BrowseButton.js",
+    "lib/UploadButton.js",
+  ],
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel ./src --out-dir ./lib --presets env,react,stage-0",
