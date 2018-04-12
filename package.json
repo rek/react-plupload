@@ -19,20 +19,19 @@
   ],
   "author": "Raymond van Vuuren",
   "license": "MIT",
-
   "devDependencies": {
-    "babel-env": "^2.4.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
+    "babel-env": "^2.4.1",
     "babel-eslint": "^8.2.1",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-0": "^6.24.1",
     "eslint": "^4.19.0",
     "eslint-plugin-react": "^7.7.0",
+    "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "prop-types": "^15.6.1",
     "react-hot-loader": "^4.0.0",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.12",
@@ -43,5 +42,8 @@
   },
   "directories": {
     "example": "example"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
   }
 }

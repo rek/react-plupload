@@ -1,4 +1,4 @@
-import _omit from 'lodash/omit';
+import {omit} from 'lodash';
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -9,7 +9,7 @@ class BrowseButton extends React.Component {
   }
 
   render() {
-    return React.createElement('button', _omit(this.props, 'content'), this.props.content);
+    return React.createElement('button', omit(this.props, 'content'), this.props.content);
   }
 }
 
