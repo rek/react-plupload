@@ -1,19 +1,18 @@
 {
   "name": "react-plupload",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "React plugin for plupload",
   "main": "lib/Plupload.js",
-
   "files": [
     "lib/Plupload.js",
     "lib/BrowseButton.js",
     "lib/UploadButton.js"
   ],
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel ./src --out-dir ./lib --presets env,react,stage-0",
-    "dev": "webpack-dev-server --progress --colors --port 8090 --hot"
+    "dev": "webpack-dev-server --progress --colors --port 8090 --hot",
+    "prepublish": "yarn build"
   },
   "repository": {
     "type": "git",
