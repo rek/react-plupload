@@ -2,13 +2,17 @@
   "name": "react-plupload",
   "version": "0.0.23",
   "description": "React plugin for plupload",
-  "main": "lib/Plupload.js",
+  "author": "Raymond van Vuuren",
+  "main": "./lib/Plupload.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel ./src --out-dir ./lib --presets env,react,stage-0",
     "dev": "webpack-dev-server --progress --colors --port 8090 --hot",
     "prepublish": "yarn build"
   },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lemonCMS/react-plupload.git"
@@ -18,7 +22,6 @@
     "react",
     "plupload"
   ],
-  "author": "Raymond van Vuuren",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -31,8 +34,6 @@
     "eslint": "^4.19.0",
     "eslint-plugin-react": "^7.7.0",
     "prop-types": "^15.6.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
     "react-hot-loader": "^4.0.0",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.12",
@@ -45,6 +46,8 @@
     "example": "example"
   },
   "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "lodash": "^4.17.5"
   }
 }
